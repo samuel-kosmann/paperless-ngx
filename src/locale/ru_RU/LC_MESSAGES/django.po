@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: paperless-ngx\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-19 20:52+0000\n"
-"PO-Revision-Date: 2025-05-19 20:54\n"
+"PO-Revision-Date: 2025-05-24 00:34\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -1581,7 +1581,7 @@ msgstr ""
 
 #: paperless/models.py:209
 msgid "Sets the barcode string"
-msgstr ""
+msgstr "Устанавливает строку штрих-кода"
 
 #: paperless/models.py:217
 msgid "Retains split pages"
@@ -1605,7 +1605,7 @@ msgstr ""
 
 #: paperless/models.py:251
 msgid "Sets the maximum pages for barcode"
-msgstr ""
+msgstr "Устанавливает максимальное количество страниц для штрих-кода"
 
 #: paperless/models.py:258
 msgid "Enables tag barcode"

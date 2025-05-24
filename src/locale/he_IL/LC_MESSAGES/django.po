@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: paperless-ngx\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-19 20:52+0000\n"
-"PO-Revision-Date: 2025-05-19 20:54\n"
+"PO-Revision-Date: 2025-05-24 12:11\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
@@ -670,7 +670,7 @@ msgstr "סוג משימה"
 
 #: documents/models.py:618
 msgid "The type of task that was run"
-msgstr ""
+msgstr "סוג המשימה שהופעלה"
 
 #: documents/models.py:629
 msgid "Note for the document"
@@ -746,7 +746,7 @@ msgstr "קישור למסמך"
 
 #: documents/models.py:739
 msgid "Select"
-msgstr ""
+msgstr "בחר"
 
 #: documents/models.py:751
 msgid "data type"
@@ -754,11 +754,11 @@ msgstr "סוג מידע:"
 
 #: documents/models.py:758
 msgid "extra data"
-msgstr ""
+msgstr "נתונים נוספים"
 
 #: documents/models.py:762
 msgid "Extra data for the custom field, such as select options"
-msgstr ""
+msgstr "נתונים נוספים לשדה המותאם אישית, כגון אפשרויות בחירה."
 
 #: documents/models.py:768
 msgid "custom field"
@@ -790,7 +790,7 @@ msgstr "המסמך עודכן"
 
 #: documents/models.py:935
 msgid "Scheduled"
-msgstr ""
+msgstr "תזמון"
 
 #: documents/models.py:938
 msgid "Consume Folder"
@@ -806,7 +806,7 @@ msgstr "הורד מייל"
 
 #: documents/models.py:941
 msgid "Web UI"
-msgstr ""
+msgstr "ממשק משתמש"
 
 #: documents/models.py:946
 msgid "Modified"
@@ -814,7 +814,7 @@ msgstr ""
 
 #: documents/models.py:947
 msgid "Custom Field"
-msgstr ""
+msgstr "שדה מותאם אישית"
 
 #: documents/models.py:950
 msgid "Workflow Trigger Type"
@@ -966,7 +966,7 @@ msgstr ""
 
 #: documents/models.py:1156
 msgid "include document in webhook"
-msgstr ""
+msgstr "כלול מסמך בוובהוק"
 
 #: documents/models.py:1167
 msgid "Assignment"
@@ -982,11 +982,11 @@ msgstr "דוא\"ל"
 
 #: documents/models.py:1179
 msgid "Webhook"
-msgstr ""
+msgstr "וובהוק [קריאה חוזרת]"
 
 #: documents/models.py:1183
 msgid "Workflow Action Type"
-msgstr ""
+msgstr "סוג פעולה של זרימת עבודה"
 
 #: documents/models.py:1189
 msgid "assign title"
@@ -1038,11 +1038,11 @@ msgstr "הקצה שדות מותאמים אישית אלו "
 
 #: documents/models.py:1278
 msgid "custom field values"
-msgstr ""
+msgstr "ערכי שדה מותאמים אישית"
 
 #: documents/models.py:1282
 msgid "Optional values to assign to the custom fields."
-msgstr ""
+msgstr "ערכים אופציונליים להקצאה לשדות המותאמים אישית"
 
 #: documents/models.py:1291
 msgid "remove these tag(s)"
@@ -1106,11 +1106,11 @@ msgstr "הסר את כל ההרשאות"
 
 #: documents/models.py:1384
 msgid "remove these custom fields"
-msgstr ""
+msgstr "הסר שדות מותאמים אישית אלה"
 
 #: documents/models.py:1389
 msgid "remove all custom fields"
-msgstr ""
+msgstr "הסר את כל השדות המותאמים אישית"
 
 #: documents/models.py:1398
 msgid "email"
@@ -1118,15 +1118,15 @@ msgstr "אימייל"
 
 #: documents/models.py:1407
 msgid "webhook"
-msgstr ""
+msgstr "וובהוק [קריאה חוזרת]"
 
 #: documents/models.py:1411
 msgid "workflow action"
-msgstr ""
+msgstr "פעולת זרימת עבודה"
 
 #: documents/models.py:1412
 msgid "workflow actions"
-msgstr ""
+msgstr "פעולות זרימות עבודה"
 
 #: documents/models.py:1421 paperless_mail/models.py:145
 msgid "order"
@@ -1146,11 +1146,11 @@ msgstr "פעיל"
 
 #: documents/models.py:1448
 msgid "workflow"
-msgstr ""
+msgstr "זרימת עבודה"
 
 #: documents/models.py:1452
 msgid "workflow trigger type"
-msgstr ""
+msgstr "סוג ההפעלה של זרימת העבודה"
 
 #: documents/models.py:1466
 msgid "date run"
@@ -1609,11 +1609,11 @@ msgstr ""
 
 #: paperless/models.py:258
 msgid "Enables tag barcode"
-msgstr ""
+msgstr "מאפשר תג ברקוד"
 
 #: paperless/models.py:264
 msgid "Sets the tag barcode mapping"
-msgstr ""
+msgstr "מגדיר את מיפוי הברקוד"
 
 #: paperless/models.py:269
 msgid "paperless application settings"
@@ -1689,7 +1689,7 @@ msgstr "יפנית"
 
 #: paperless/settings.py:771
 msgid "Korean"
-msgstr ""
+msgstr "קוריאנית"
 
 #: paperless/settings.py:772
 msgid "Luxembourgish"
@@ -1753,7 +1753,7 @@ msgstr "סינית מפושטת"
 
 #: paperless/settings.py:787
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "סינית מסורתית"
 
 #: paperless/urls.py:374
 msgid "Paperless-ngx administration"
@@ -1905,7 +1905,7 @@ msgstr "עבד את כל הקבצים, כולל קבצים מצורפים 'מו�
 
 #: paperless_mail/models.py:119
 msgid "System default"
-msgstr ""
+msgstr "ברירת מחדל של המערכת"
 
 #: paperless_mail/models.py:120
 msgid "Text, then HTML"
